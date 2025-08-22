@@ -1,0 +1,55 @@
+.why-ait-wrapper {
+  background-color: #fff;
+  padding: 80px 60px;
+  text-align: center;
+}
+
+#text_1 h3 {
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  color: #000;
+}
+
+#text_1 h3::after {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 6px;
+  background-color: #3fe2a5;
+  left: 10%;
+  bottom: -10px;
+  border-radius: 10px;
+}
+
+#grid {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+#grid > div {
+  background: white;
+  padding: 30px 20px;
+  border-radius: 14px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#grid h2 {
+  color: #0033cc;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#grid p {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.5;
+}

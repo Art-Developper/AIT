@@ -1,0 +1,121 @@
+.main-section {
+  display: flex;
+  justify-content: center; 
+  align-items: center;      
+  padding: 60px 80px;
+  gap: 60px;
+  background-color: #fff;
+  min-height: 80vh;         
+}
+
+.main-left {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;      
+  gap: 15px;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 72px;
+  font-weight: bold;
+  margin: 0;
+  color: #0033cc;
+}
+
+.main-title span {
+  color: #0033cc;
+}
+
+.main-subtitle {
+  font-size: 16px;
+  margin: 20px 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+.course-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  max-width: 500px; 
+  justify-content: center; 
+}
+
+.course-buttons button {
+  flex: 1 1 calc(30% - 20px); 
+  border: 1px solid #000;
+  border-radius: 30px;
+  padding: 10px 20px;
+  background-color: rgb(255, 255, 255 / var(--tw-text-opacity));
+  cursor: pointer;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.course-buttons button:nth-child(5),
+.course-buttons button:nth-child(6) {
+  flex: 1 1 calc(30% - 20px);
+}
+
+.course-buttons button:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(14, 36, 60);
+    color: #fff;
+     transition: background-color 0.3s ease;
+}
+
+.cta-text {
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.action-buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: center; 
+}
+
+.action-buttons .blue {
+  background-color: #0033cc;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 25px;
+  border: 1px solid #0033cc;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.action-buttons .gray {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 25px;
+  border-radius: 25px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.action-buttons .blue:hover{
+    background-color: #fff;
+    color: #0033cc;
+    border-radius: 1px solid #0033cc;
+    transition: background-color 0.3s ease;
+}
+
+.action-buttons .gray:hover{
+    background-color:  rgb(14, 36, 60);
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+
+.main-right .main-image {
+  width: 750px;
+  height: auto;
+  border-radius: 15px;
+}
