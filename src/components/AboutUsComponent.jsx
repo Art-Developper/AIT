@@ -1,6 +1,6 @@
 import About_US from "../assets/AboutUS.PNG"
 import OurGoals from "../assets/OurGoals.PNG"
-import "./AboutUsComponent.css"
+import "./AboutUsComponents.css"
 
 
 function AboutUsComponent(){
