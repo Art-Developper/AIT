@@ -120,3 +120,44 @@
   height: auto;
   border-radius: 15px;
 }
+
+@media (max-width: 1240px) {
+  .main-section {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 40px;
+    min-height: auto;
+  }
+
+  .main-left {
+    max-width: 100%;
+    text-align: center;
+    gap: 12px;
+  }
+
+  .main-title {
+    font-size: 56px;
+  }
+
+  .main-subtitle {
+    font-size: 14px;
+    margin: 15px 0;
+    line-height: 1.4;
+  }
+
+  .course-buttons {
+    max-width: 100%;
+    gap: 10px 15px;
+  }
+
+  .course-buttons button {
+    flex: 1 1 calc(45% - 15px);
+    font-size: 13px;
+  }
+
+  .main-right .main-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
+}

@@ -7,18 +7,16 @@ export default function Mission() {
     <section className="mission-section">
       <h2 className="section-title">Մեր նպատակը</h2>
       <div className="mission-grid">
-        {/* Left: images & text */}
         <div className="mission-left">
           <p className="mission-description">
             Ապակենտրոնացնել դարաշրջանի IT կրթությունը և դարձնել այն հասանելի ոչ միայն Երևանում, այլ նաև նրա սահմաններից դուրս
           </p>
         </div>
 
-        {/* Right: boxes */}
         <div className="mission-right">
           <div className="mission-box">
             <div className="icon">10/10</div>
-            <p>
+            <p className="mission-description">
               Ստեղծել որակյալ կադրեր աշխատաշուկայի զարգացման համար և համալրել
               նրանցով մեր դպրոցին կից Fantasy Space ընկերությունը:
             </p>
