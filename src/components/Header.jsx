@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import "./Header.css";
 
-const Header = ({ onNavigate }) => {
+const Header = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   const toggleDropdown = (e) => {
@@ -12,27 +13,19 @@ const Header = ({ onNavigate }) => {
   return (
     <header className="header">
       <div className="header__logo">
-        <a href="/">
+        <Link to="/">
           <img
             src="https://aitschool.am/_ipx/_/icons/logo-header.svg"
             alt="AIT Logo"
           />
-        </a>
+        </Link>
       </div>
 
       <nav className="header__nav">
         <div className="dropdown" onMouseLeave={() => setDropdownOpen(false)}>
-
-          <a
-            href="#"
-            className="dropdown-btn-text"
-            onClick={(e) => {
-              e.preventDefault();
-              onNavigate("courses");
-            }}
-          >
+          <Link to="/courses" className="dropdown-btn-text">
             Դասընթացներ
-          </a>
+          </Link>
 
           <button className="dropdown-btn-arrow" onClick={toggleDropdown}>
             <span className="arrow">{dropdownOpen ? "▲" : "▼"}</span>
@@ -40,36 +33,24 @@ const Header = ({ onNavigate }) => {
 
           {dropdownOpen && (
             <div className="dropdown-content">
-              <a href="#">WEB ծրագրավորում</a>
-              <a href="#">UI/UX դիզայն</a>
-              <a href="#">Գրաֆիկ դիզայն</a>
-              <a href="#">SMM</a>
-              <a href="#">AIT Kids</a>
-              <a href="#">Բոլոր դասընթացները</a>
+              <Link to="/courses">WEB ծրագրավորում</Link>
+              <Link to="/courses">UI/UX դիզայն</Link>
+              <Link to="/courses">Գրաֆիկ դիզայն</Link>
+              <Link to="/courses">SMM</Link>
+              <Link to="/courses">AIT Kids</Link>
+              <Link to="/courses">Բոլոր դասընթացները</Link>
             </div>
           )}
         </div>
 
-        <a href="#" onClick={(AboutUs)=>{
-          AboutUs.preventDefault();
-          onNavigate("AboutUS")
-        }}>Մեր մասին</a>
-        <a href="#" onClick={(contact)=>{
-          contact.preventDefault();
-          onNavigate("contact")
-        }}>Կապ</a>
-        <a href="#" onClick={(el)=>{
-          el.preventDefault();
-          onNavigate("policy")
-        }}>Քաղաքականություն</a>
-        <a href="#" className="fantasy" onClick={(fantasy)=>{
-          fantasy.preventDefault();
-          onNavigate("fantasy")
-        }}>Fantasy Space</a>
+        <Link to="/about">Մեր մասին</Link>
+        <Link to="/contact">Կապ</Link>
+        <Link to="/policy">Քաղաքականություն</Link>
+        <Link to="/fantasy" className="fantasy">Fantasy Space</Link>
       </nav>
 
       <div className="header__cta">
-        <a href="#" className="cta-button">Դիմել հիմա</a>
+        <Link to="/apply" className="cta-button">Դիմել հիմա</Link>
       </div>
     </header>
   );
