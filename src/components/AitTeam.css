@@ -1,0 +1,78 @@
+.AitTeam {
+  padding: 60px 20px;
+  background: #f9f9f9;
+}
+
+.Ait-Team-Personal {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.team-card {
+  background: #ffffff;
+  border-radius: 16px;
+  text-align: center;
+  width: 240px;
+  padding: 20px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.team-image-container {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.team-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #004aad;
+  margin-top: 0;
+}
+
+.team-section-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+.team-position {
+  font-size: 14px;
+  color: #555;
+  margin-top: 4px;
+}
+
+
+@media (max-width: 768px) {
+  .Ait-Team-Personal {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .team-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .team-card {
+    width: 100%;
+  }
+}
