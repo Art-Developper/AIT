@@ -12,6 +12,15 @@
   background-clip: text;
 }
 
+.features-cards{
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  flex-wrap: wrap;         
+  gap: 40px;                
+  padding: 40px;
+}
+
 .features-cards {
   display: flex;
   justify-content: center;

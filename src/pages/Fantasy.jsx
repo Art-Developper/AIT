@@ -2,8 +2,9 @@ import React from "react";
 import Header from "../components/Header";
 import "./Fantasy.css";
 import FantasyComponent from "../components/FantasySpaceComponent";
+import FantasyFeatures from "../components/FantasyFeatures";
+import FantasyMap from "../components/FantasyMap";
 import Footer from "../components/Footer";
-import MapIMG from "../assets/Map.PNG";
 import Team from "../assets/Team.PNG";
 
 const FantasySpace = () => {
@@ -11,20 +12,11 @@ const FantasySpace = () => {
     <>
       <Header/>
       <FantasyComponent></FantasyComponent>
-
+      <FantasyFeatures></FantasyFeatures>
+      <FantasyMap></FantasyMap>
       <Footer/>
 
-      <section className="clients-map-section">
-        <h2 className="clients-map-title">Հաճախորդների աշխարհագրությունը</h2>
-        <p className="clients-map-subtitle">
-          Fantasy Space-ը համագործակցում է ավելի քան 10 տարբեր երկրներում
-          գտնվող ընկերությունների հետ
-        </p>
-
-        <div className="map-wrapper">
-          <img src={MapIMG} alt="Fantasy Space Map" className="map-image" />
-        </div>
-      </section>
+     
 
       <section className="team-section">
         <div className="team-content">

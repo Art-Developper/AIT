@@ -31,3 +31,5 @@ function FantasyFeatures(){
         </>
     )
 }
+
+export default FantasyFeatures
