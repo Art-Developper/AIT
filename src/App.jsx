@@ -6,6 +6,7 @@ import CoursesPage from "./pages/CoursesPage.jsx";
 import AboutUs from "./pages/AboutUs.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 import PrivacyPolicy from "./pages/PrivacyPolicy.jsx";
+import Fantasy from "./pages/Fantasy.jsx"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<ContactPage/>} />
         <Route path="/policy" element={<PrivacyPolicy/>}/>
+        <Route path="/fantasy" element={<Fantasy/>} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,5 +1,5 @@
 import Fantasy from "../assets/FantasySpace.PNG";
-
+import "./FantasySpaceComponent.css"
 function FantasyComponent(){
     return (
         <>
