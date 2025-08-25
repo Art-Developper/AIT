@@ -5,9 +5,9 @@ import Footer from "../components/Footer";
 function CoursesPage() {
     return (
         <>
-        <Header></Header>
+        <Header/>
         <Courses/>
-        <Footer></Footer>
+        <Footer/>
         </>
     )
 }
