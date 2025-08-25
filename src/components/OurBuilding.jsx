@@ -24,3 +24,5 @@ function OurBuildingFunction(){
         </>
     )
 }
+
+export default OurBuildingFunction

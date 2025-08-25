@@ -90,3 +90,4 @@ function AitTeam (){
     )
 }
 
+export default AitTeam
