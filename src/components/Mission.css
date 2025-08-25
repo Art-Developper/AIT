@@ -78,3 +78,45 @@
   line-height: 1.6;
   margin: 0;
 }
+
+@media (max-width: 820px) {
+  .mission-section {
+    padding: 40px 20px;
+  }
+
+  .mission-grid {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .mission-left,
+  .mission-right {
+    max-width: 100%;
+  }
+
+  .mission-description {
+    font-size: 18px;
+    line-height: 1.4;
+    padding: 0 10px;
+    word-wrap: break-word;
+  }
+
+  .mission-box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .mission-box .icon {
+    font-size: 28px;
+    min-width: auto;
+  }
+
+  .mission-box p {
+    font-size: 13px;
+    line-height: 1.4;
+    word-wrap: break-word;
+  }
+}
