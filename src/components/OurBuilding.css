@@ -1,0 +1,40 @@
+.our_building_section {
+  background-color: rgb(14, 36, 60);
+  padding: 80px 40px;
+  color: white;
+}
+
+.our_building_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.our-left {
+  flex: 1;
+  min-width: 320px;
+}
+
+.out-title{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.our-description{
+  font-size: 16px;
+  margin-bottom: 24px;
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+.our-right img{
+  max-width: 500px;
+  width: 100%;
+}
