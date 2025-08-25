@@ -4,16 +4,16 @@ import JoinCTA from "./components/JoinCTA.jsx";
 import MainSection from "./components/MainSection.jsx";
 import Mission from "./components/Mission.jsx";
 import Header from "./components/Header.jsx";
-import CoursesPage from "./components/pages/CoursesPage.jsx";
+import CoursesPage from "./pages/CoursesPage.jsx";
 import Footer from "./components/Footer.jsx";
 import WhyChoose from "./components/Whychose.jsx";
 import Courses from "./components/Courses.jsx";
 import Certificate from "./components/Certificate.jsx";
 import Contact from "./components/Contact.jsx";
-import PrivacyPolicy from "./components/pages/PrivacyPolicy.jsx";
-import ContactPage from "./components/pages/ContactPage.jsx";
-import FantasySpace from "./components/pages/Fantasy.jsx";
-import AboutUs from "./components/pages/AboutUs.jsx"
+import PrivacyPolicy from "./pages/PrivacyPolicy.jsx";
+import ContactPage from "./pages/ContactPage.jsx";
+import FantasySpace from "./pages/Fantasy.jsx";
+import AboutUs from "./pages/AboutUs.jsx"
 
 function App() {
   const [currentPage, setCurrentPage] = useState("main");

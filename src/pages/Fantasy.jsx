@@ -1,8 +1,8 @@
 import React from "react";
 import "./Fantasy.css";
-import Fantasy from "../../assets/FantasySpace.PNG";
-import MapIMG from "../../assets/Map.PNG";
-import Team from "../../assets/Team.PNG";
+import Fantasy from "../assets/FantasySpace.PNG";
+import MapIMG from "../assets/Map.PNG";
+import Team from "../assets/Team.PNG";
 
 const FantasySpace = () => {
   return (
