@@ -105,3 +105,109 @@
   color: #0033cc;
   transition: background-color 0.3s ease;
 }
+
+@media (max-width: 1214px) and (min-width: 1155px) {
+  .dropdown-btn {
+    background: #f7f7f7;
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .dropdown-btn .arrow {
+    margin-left: 8px;
+    font-size: 12px;
+  }
+
+  .header__nav {
+    gap: 35px;
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 1154px) and (min-width: 1102px ) {
+  .dropdown-btn {
+    background: #fff;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+  .dropdown-btn .arrow {
+    margin-left: 6px;
+    font-size: 11px;
+  }
+
+  .header__nav {
+    gap: 20px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1101px) {
+
+  .dropdown-btn-text {
+    display: none;
+  }
+
+  .dropdown-btn {
+    display: inline-flex;
+    align-items: center;
+    background: #f7f7f7;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+
+  .dropdown-btn .arrow {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1038px) {
+  .header {
+    padding: 15px 40px; 
+    gap: 30px; 
+  }
+
+  .header__logo img {
+    width: 60px; 
+  }
+
+  .header__nav {
+    gap: 25px; 
+    font-size: 13px; 
+  }
+
+  .header__cta .cta-button {
+    padding: 8px 20px; 
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 794px) {
+  .header {
+    padding: 12px 25px; 
+    gap: 20px; 
+  }
+
+  .header__logo img {
+    width: 50px; 
+  }
+
+  .header__nav {
+    gap: 15px; 
+    font-size: 12px; 
+  }
+
+  .header__cta .cta-button {
+    padding: 6px 15px; 
+    font-size: 12px; 
+  }
+}
