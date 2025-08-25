@@ -1,5 +1,5 @@
-import "./AboutUs.css";
-import About_US from "../assets/AboutUS.PNG"
+
+
 import AitTeam from "../assets/AitTeam.PNG"
 import AitTeam2 from "../assets/AitTeam2.PNG"
 import AitTeam3 from "../assets/AitTeam3.PNG"
@@ -12,60 +12,14 @@ import AitTeam9 from "../assets/AitTeam9.PNG"
 import AitTeam10 from "../assets/AitTeam10.PNG"
 import BestTeacher from "../assets/BestTeacher.PNG"
 import OurLogo from "../assets/OurLogo.PNG"
-import OurBuilding from "../assets/OurBuilding.PNG"
-import OurGoals from "../assets/OurGoals.PNG"
+
+
 
 const AboutUS = () =>{
     return (
     <>
-            <section className="about-section">
-                <div className="about-content">
-                  <h1 className="about-title">Մեր մասին</h1>
-                  <p className="about-subtitle">
-                    IT-ն դեռ երբեք այսքան մոտ չի եղել։ AIT-ն Ժամանակակից մասնագիտությունների ուսումնարան է Արարատ և Վեդի քաղաքներում։
-                    Դպրոցին կից գործում է նաև Fantasy Space ծրագրավորման ընկերությունը, որը մասնագիտացված է WEB և Mobile ծրագրավորման մեջ։ 
-                    AIT-ի այն ուսանողները, ովքեր նպատակասլաց են և զարգացմանը պատրաստ, հնարավորություն են ստանում մուտք գործել ՏՏ աշխարհ՝ 
-                    միանալով մեր հզոր և ստեղծարար թիմին։
-                  </p>
-                </div>
-        
-                <div>
-                  <img src={About_US} alt="Fantasy Space" className="aboutUs" />
-                </div>
-            </section>
-            <section className="AboutSection">
-                  <div className="About-container">
-                    <div className="About-left">
-                      <img src={OurGoals} alt="OurGoals" />
-                    </div>
-                    <div className="about-right">
-                      <h2 className="AboutTitle">Մեր առաքելությունը</h2>
-                      <p className="about-description">
-                       AIT-ի նպատակն է ապակենտրոնացնել IT ոլորտը և զարգացնել այն նաև մարզերում՝ ստեղծելով IT էկոհամակարգ։
-                       Կրթության կազմակերպման գործում մեզ համար կարևորագույն է ինքնակրթության գաղափարը։ Ուսանողը պետք է 
-                       գիտակցի ինքնազարգացման կարևորությունը, ուժը և տեսնի նրա ընձեռած անթիվ հնարավորությունները։
-                       Փորձի փոխանակումը մարզերի և մայրաքաղաքի միջև կերտում է միասնական զարգացման համար նպաստավոր պայմանները։ 
-                       Մենք հավատում ենք նաև, որ ՏՏ ոլորտի զարագացումը կարևորագույն լուծում է Հայաստանի համար, որը նպատակ է դրել տնտեսության էքսպոնենցիալ զարգացման։
-                      </p>
-                    </div>
-                  </div>
-            </section>
-            <section className="our_building_section">
-                <div className="our_building_container">
-                    <div className="our-left">
-                        <h2 className="our-title">Մեր մասնաշենքը</h2>
-                        <p className="our-description">
-                            Այսպիսի գեղեցիկ, լուսավոր ու ջերմ անկյունում է անցկացվում մեր ցանկացած դասընթաց։ 
-                            Միջավայրը շատ կարևոր է մոտիվացված և տրամադրված աշխատանքի համար։ Մենք ամեն պայման ապահովում ենք, 
-                            որպեսզի մեր ուսանողները սովորեն բոլոր հարմարություններով կահավորված միջավայրում, իսկ մեր թիմը սերմանում է՝ 
-                            աշխատասիրություն, նպատակասլացություն, ոգևորվածություն։
-                        </p>
-                    </div>
-                    <div className="our-right">
-                        <img src={OurBuilding} alt="OurBuilding" />
-                    </div>
-                </div>
-            </section>
+    
+    
            <section className="AitTeam">
             <h2 className="team-section-title">AIT թիմը</h2>
             <div className="Ait-Team-Personal">
