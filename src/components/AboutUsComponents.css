@@ -68,3 +68,51 @@
   line-height: 1.6;
   max-width: 500px;
 }
+
+@media (max-width: 644px) {
+  .AboutSection {
+    padding: 40px 20px;
+  }
+
+  .About-container {
+    flex-direction: column; 
+    gap: 20px;
+    align-items: center;
+  }
+
+  .About-left img {
+    max-width: 100%; 
+    width: 300px; 
+  }
+
+  .about-right {
+    flex: none;
+    width: 100%;
+    text-align: center; 
+  }
+
+  .AboutTitle {
+    font-size: 24px; 
+  }
+
+  .AboutTitle::after {
+    width: 60px; 
+    height: 2px;
+  }
+
+  .about-description {
+    font-size: 14px; 
+    margin-bottom: 16px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 636px) {
+  .aboutUs {
+    width: 80%;      
+    max-width: 550px; 
+    height: auto;     
+    display: block;
+    margin: 0 auto;  
+  }
+}
