@@ -15,7 +15,7 @@ function App() {
         <Route path="/courses" element={<CoursesPage />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<ContactPage/>} />
-        <Route path="/privacy" element={<PrivacyPolicy/>}/>
+        <Route path="/policy" element={<PrivacyPolicy/>}/>
       </Routes>
     </BrowserRouter>
   );
