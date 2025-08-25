@@ -47,7 +47,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p> AIT School — Բոլոր իրավունքները պաշտպանված են</p>
+        <p> AIT School — Բոլոր իրավունքները պաշտպանված են  © {new Date().getFullYear()}</p>
       </div>
     </footer>
   );

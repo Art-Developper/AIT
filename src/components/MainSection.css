@@ -49,6 +49,7 @@
   flex: 1 1 calc(30% - 20px); 
   border: 1px solid #000;
   border-radius: 30px;
+  color: #000;
   padding: 10px 20px;
   background-color: rgb(255, 255, 255 / var(--tw-text-opacity));
   cursor: pointer;
