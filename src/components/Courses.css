@@ -86,3 +86,137 @@
   height: 80px;
   object-fit: contain;
 }
+
+@media (max-width: 1110px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 24px; 
+  }
+
+  .card {
+    max-width: 500px; 
+    height: 150px;     
+    padding: 20px;     
+  }
+
+  .title {
+    font-size: 16px; 
+  }
+
+  .duration {
+    font-size: 12px; 
+    gap: 4px;
+  }
+
+  .card-right img {
+    width: 60px;  
+    height: 60px;
+  }
+
+  .tags p {
+    font-size: 11px;
+    padding: 3px 8px;
+  }
+}
+
+@media (max-width: 1026px) {
+  .card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* ավտոմատ հարմարում */
+    gap: 16px; /* փոքր gap */
+    justify-items: center;
+  }
+
+  .card {
+    width: 100%;        /* լցնել grid column-ը */
+    max-width: 300px;   /* առավելագույն լայնություն */
+    height: auto;       /* ավտոմատ բարձրություն */
+    padding: 16px;      /* փոքր padding */
+    display: flex;
+    flex-direction: column; /* stacked layout փոքր էկրանների համար */
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .card-left {
+    width: 100%;
+  }
+
+  .card-right {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; /* նկարը աջ կողմում */
+    margin-top: 10px;
+  }
+
+  .card-right img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+  }
+
+  .title {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+
+  .duration {
+    font-size: 12px;
+    gap: 4px;
+  }
+
+  .tags p {
+    font-size: 10px;
+    padding: 2px 6px;
+  }
+}
+
+@media (max-width: 999px) {
+  .card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+    justify-items: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .card-left {
+    width: 100%;
+  }
+
+  .card-right {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+
+  .card-right img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+  }
+
+  .title {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+
+  .duration {
+    font-size: 12px;
+    gap: 4px;
+  }
+
+  .tags p {
+    font-size: 10px;
+    padding: 2px 6px;
+  }
+}
