@@ -4,7 +4,7 @@ import Web from "../assets/Capture.PNG";
 import UI from "../assets/Capture_1.PNG";
 import Graphic from "../assets/Capture_2.PNG";
 import SMM from "../assets/Capture_3.PNG";
-import CourseCard from "./CourseCard";
+import CourseCard from "./CoursesCard";
 
 const courses = [
   { title: "WEB ծրագրավորում", duration: "8 ամիս", tags: ["Անհատական", "Օֆլայն"], image: Web },
