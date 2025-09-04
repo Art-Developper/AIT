@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
+import AITLogo from "../assets/ararat-it-school-logo-web.PNG"
 import "./Header.css";
 
 const Header = () => {
@@ -15,7 +16,7 @@ const Header = () => {
       <div className="header__logo">
         <Link to="/">
           <img
-            src="https://aitschool.am/_ipx/_/icons/logo-header.svg"
+            src={AITLogo}
             alt="AIT Logo"
           />
         </Link>
