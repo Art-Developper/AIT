@@ -1,14 +1,14 @@
 import React from "react";
 import "./Footer.css";
-import {  Facebook, Instagram } from "lucide-react";
-import logo from "../assets/Capture_5.PNG"
+import { Facebook, Instagram } from "lucide-react";
+import logo from "../assets/Capture_5.PNG";
 
-const Footer = () => {
-  return (
-    <footer className="footer">
+const Footer = ({
+  children = (
+    <>
       <div className="footer-top">
         <div className="footer-logo">
-          <img src={ logo } alt="AIT School logo" />
+          <img src={logo} alt="AIT School logo" />
           <p>+374(93)-67-69-66</p>
           <p>info@aitschool.am</p>
           <p>Ք․Արարատ, Աբովյան 2/1</p>
@@ -39,18 +39,31 @@ const Footer = () => {
           <div className="footer-section">
             <h4>Սոցիալական ցանցեր</h4>
             <ul>
-              <li><a href="https://www.facebook.com/AraratITCenter"><Facebook/></a></li>
-              <li><a href="https://www.instagram.com/ararat_itcenter/"><Instagram/></a></li>
+              <li>
+                <a href="https://www.facebook.com/AraratITCenter">
+                  <Facebook />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/ararat_itcenter/">
+                  <Instagram />
+                </a>
+              </li>
             </ul>
           </div>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p> AIT School — Բոլոր իրավունքները պաշտպանված են  © {new Date().getFullYear()}</p>
+        <p>
+          AIT School — Բոլոր իրավունքները պաշտպանված են ©{" "}
+          {new Date().getFullYear()}
+        </p>
       </div>
-    </footer>
-  );
+    </>
+  ),
+}) => {
+  return <footer className="footer">{children}</footer>;
 };
 
 export default Footer;
